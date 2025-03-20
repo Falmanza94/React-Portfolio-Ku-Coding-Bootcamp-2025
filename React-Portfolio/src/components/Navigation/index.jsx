@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 // #link is used due to this project being a single-page application - scrolling to sections on same page
