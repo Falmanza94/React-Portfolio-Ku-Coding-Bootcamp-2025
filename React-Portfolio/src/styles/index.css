@@ -230,7 +230,7 @@ main {
 /* All url image pathways need to be changed */
 
 .run-buddy {
-  background-image: url(..//);
+  background-image: url(..//assets/images/run_buddy.avif);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -238,7 +238,7 @@ main {
 }
 
 .led-wall {
-  background-image: url(..//);
+  background-image: url(..//assets/images/led_wall.avif);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -246,7 +246,7 @@ main {
 }
 
 .react-calc {
-  background-image: url(..//);
+  background-image: url(..//assets/images/reac_calc.avif);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -254,7 +254,7 @@ main {
 }
 
 .pastel-puzzles {
-  background-image: url(..//);
+  background-image: url(..//assets/images/pastel_puzzle.avif);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -262,7 +262,7 @@ main {
 }
 
 .surf-report {
-  background-image: url(..//);
+  background-image: url(..//assets/images/surf_report.avif);
   background-size: cover;
   background-position: center;
   height: auto;
