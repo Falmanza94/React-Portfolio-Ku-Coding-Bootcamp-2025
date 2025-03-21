@@ -2,7 +2,7 @@ import React from 'react';
 import Project from '../../components/Project/index.jsx';
 import ledWallImage from '../../assets/images/led_wall.avif';
 import pastelPuzzle from '../../assets/images/pastel_puzzle.avif';
-import reactCalc from '../../assets/images/reac_calc.avif';
+import reactCalc from '../../assets/images/react_calc.avif';
 import runBuddy from '../../assets/images/run_buddy.avif';
 import surfReport from '../../assets/images/surf_report.avif';
 
