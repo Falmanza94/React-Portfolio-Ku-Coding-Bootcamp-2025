@@ -12,10 +12,18 @@ function Contact() {
     setForm({ ...form, [name]: value });
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!form.name || !form.email || !form.message) {
+      alert('All fields are required!');
+      return;
+    }
+  };
+
   return (
     <section id="contact">
       <h2>Contact Me</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label htmlFor='name'>Your Name</label>
         <input
           type="text"
