@@ -1,9 +1,10 @@
 import React from 'react';
 import portrait from '../../assets/images/portrait.jpg';
+import aboutMeRef from '../AboutMe/index.jsx';
 
 function AboutMe() {
     return (
-        <section id='aboutme'>
+        <section id='aboutme' ref={aboutMeRef}>
             <img src={portrait} alt='Portrait of the developer' style={{ width: '200px', height: 'auto' }} />
             <p>
                 Hello! I am Fischer Almanza, a 30-year-old living in the cozy town of Lawrence, Kansas. I graduated with a Bachelor's Degree in Art History and a Minor in Communication from the University of Kansas in 2021. My wife and I met here in this town and we call it home but some day hope to seek a new place, perhaps out East along the coastline to establish deeper roots.

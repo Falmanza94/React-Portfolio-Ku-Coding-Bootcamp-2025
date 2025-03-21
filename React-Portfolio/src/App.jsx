@@ -10,15 +10,13 @@ import Contact from './pages/Contact/index.jsx';
 import './styles/index.css';
 
 function App() {
-  const aboutMeRef = React.useRef(null);
-
   return (
     <div className='App'>
       <Header />
-      <Navigation aboutMeRef={aboutMeRef} />
+      <Navigation />
       <div id='main-content'>
+        <AboutMe />
         <Routes>
-          <Route path='/' element={<AboutMe />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/contact' element={<Contact />} />
