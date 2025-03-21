@@ -37,6 +37,3 @@ function Portfolio() {
 } 
 
 export default Portfolio;
-
-// I need to add images for my projects
-// I also need to see what type of images I need
