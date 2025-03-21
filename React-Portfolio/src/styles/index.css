@@ -86,42 +86,6 @@ main {
   margin-bottom: 45px;
 }
 
-
-.hero-banner {
-  background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-  /* ^^ check to make sure this image works*/
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: soft-light;
-  min-height: 20vh;
-  color: var(--light);
-  padding: 2% 6%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  text-align: right;
-}
-
-.hero-banner div {
-  flex: 0 0 90%;
-}
-
-.hero-banner h2 {
-  background-color: var(--secondary);
-  color: var(--tertiary);
-  margin: 0;
-  padding: 5px 10px;
-  font-size: 2.3rem;
-  line-height: 1.2;
-  display: inline;
-}
-
-.hero-banner img {
-  height: 250px;
-  width: 200px;
-}
-
 .page-wrapper {
   max-width: 88%;
   margin-left: auto;
@@ -165,8 +129,8 @@ main {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
   color: var(--tertiary);
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 200px;
+  max-height: 300px;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
@@ -174,7 +138,7 @@ main {
   margin: 0.5em;
   text-decoration: none;
   background-blend-mode: soft-light;
-  background-size: 150%;
+  background-size: cover;
   transition: all 0.5s;
   font-size: 0.9rem;
 }
@@ -227,46 +191,55 @@ main {
 }
 
 /* portfolio project images */
-/* All url image pathways need to be changed */
 
 .run-buddy {
   background-image: url(../assets/images/run_buddy.avif);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: auto;
-  width: auto;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
 }
 
 .led-wall {
   background-image: url(../assets/images/led_wall.avif);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: auto;
-  width: auto;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
 }
 
 .react-calc {
   background-image: url(../assets/images/react_calc.avif);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: auto;
-  width: auto;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
 }
 
 .pastel-puzzles {
   background-image: url(../assets/images/pastel_puzzle.avif);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: auto;
-  width: auto;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
 }
 
 .surf-report {
   background-image: url(../assets/images/surf_report.avif);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: auto;
-  width: auto;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
 }
 
 /* media queries */
