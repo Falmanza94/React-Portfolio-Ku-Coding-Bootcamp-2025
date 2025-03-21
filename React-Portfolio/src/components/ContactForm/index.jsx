@@ -16,6 +16,7 @@ function Contact() {
     <section id="contact">
       <h2>Contact Me</h2>
       <form>
+        <label htmlFor='name'>Your Name</label>
         <input
           type="text"
           name="name"
@@ -23,6 +24,7 @@ function Contact() {
           value={form.name}
           onChange={handleChange}
         />
+        <label htmlFor='email'>Your Email</label>
         <input
           type="email"
           name="email"
