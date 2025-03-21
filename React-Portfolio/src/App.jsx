@@ -15,8 +15,8 @@ function App() {
       <Header />
       <Navigation />
       <div id='main-content'>
-        <AboutMe />
         <Routes>
+          <Route path='/' element={<AboutMe />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/contact' element={<Contact />} />
